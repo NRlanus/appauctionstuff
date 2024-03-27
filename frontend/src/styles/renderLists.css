@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+    height: 15px; /* Ajusta este valor según necesites */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
